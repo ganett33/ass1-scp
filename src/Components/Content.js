@@ -9,7 +9,7 @@ const foundation = scps.map(
         <section class="mt-4">
          <div class="container">
           <div className="card border-dark mb-3 shadow-lg" >
-                 <div className="bg-danger bg-gradient card-header" id={scps.id}>
+                 <div className="bg-info bg-gradient card-header" id={scps.id}>
                  <h2 class="card-title text-white" >Item#: {scps.item}</h2>
                  </div>
                  <div class="card-body ">
