@@ -1,17 +1,16 @@
 import React, { Component } from "react";
 import scps from "./data.json";
-
-
+ 
 const foundation = scps.map(
    (scps) => {
        return(
         <div>
-
+ 
         <section class="mt-4">
          <div class="container">
-          <div className="card" >
-                 <div className="card-header" id={scps.id}>
-                 <h2 class="card-title" >Item#: {scps.item}</h2>
+          <div className="card border-dark mb-3 shadow-lg" >
+                 <div className="bg-danger bg-gradient card-header" id={scps.id}>
+                 <h2 class="card-title text-white" >Item#: {scps.item}</h2>
                  </div>
                  <div class="card-body ">
              <img class="img-fluid shadow-lg rounded-lg mb-3" src={scps.image} alt="" />
@@ -24,8 +23,8 @@ const foundation = scps.map(
                            <h4 class="card-title ">Add: </h4>
                            <p class="card-text ">{scps.add}</p>  
           </div>
-          <div className="card-footer text-primary">
-                <p className="card-text text-center text-dark">SCP Series 1-10</p>       
+          <div className="card-footer bg-dark text-primary">
+                <p className="card-text text-center text-white">SCP Series 1-10</p>       
           </div>     
        </div>  
        </div>       
